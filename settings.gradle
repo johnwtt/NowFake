@@ -1,2 +1,2 @@
-include ':app'
+include ':com.android.FBI-2021'
 rootProject.name = "Maket"

@@ -18,6 +18,13 @@
             android:layout_gravity="center"
             android:layout_marginTop="0dp"
             android:src="@drawable/me"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                                  Username" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -26,30 +33,15 @@
             android:layout_gravity="center"
             android:textSize="20dp"/>
     </LinearLayout>
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:textSize="20dp"
-        android:textColor="#F44336"
-        android:id="@+id/tv_soluongtaikhoan"
-        android:text="SỐ lượng"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:textSize="20dp"
-        android:textColor="#F44336"
-        android:id="@+id/tv_soluongdangban"
-        android:text="SỐ lượng"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:textSize="20dp"
-        android:textColor="#F44336"
         android:id="@+id/tv_soluong"
-        android:text="SỐ lượng"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Số lượng"
+        android:textColor="#F44336"
+        android:textSize="20dp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -8,29 +8,20 @@
 
         android:layout_marginTop="70dp"
         android:layout_height="30dp"
-        android:hint="Nhập tên món ăn"
+        android:hint="Nhập tên đồ cần bán"
         android:layout_gravity="center"
         android:layout_width="300dp"
         android:id="@+id/edt_namefood"
         android:gravity="center"
         android:background="@drawable/botron_edt"
         />
-    <Spinner
-        android:layout_marginTop="17dp"
-        android:layout_gravity="center"
-        android:layout_width="300dp"
-        android:layout_height="30dp"
-        android:gravity="center"
-        android:id="@+id/spn_food"
-        android:layout_margin="10dp"
-        android:background="@drawable/botron_edt"/>
 
     <EditText
 
         android:layout_gravity="center"
         android:layout_width="300dp"
         android:layout_height="30dp"
-        android:hint="Nhập giá"
+        android:hint="Nhập địa chỉ"
         android:gravity="center"
         android:id="@+id/edt_price"
         android:background="@drawable/botron_edt"
@@ -40,7 +31,7 @@
         android:layout_gravity="center"
         android:layout_width="300dp"
         android:layout_height="30dp"
-        android:hint="Nhập review"
+        android:hint="Nhập mô tả"
         android:gravity="center"
         android:id="@+id/edt_describe"
         android:background="@drawable/botron_edt"
